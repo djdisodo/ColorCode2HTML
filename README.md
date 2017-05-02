@@ -5,4 +5,4 @@ include_once ./Color.php;
 
 $string = §7▁▃ §o§2누젤라§r§3™ §6서버§r§7▃▁; //예시
 
-Color( $string );
+echo Color( $string );
