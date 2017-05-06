@@ -18,7 +18,7 @@ function color( $string ) {
      $string = str_replace( '§e', '</span><span style="color:yellow">', $string );
      $string = str_replace( '§f', '</span><span style="color:white">', $string );
      $string = str_replace( '§d', '</span><span style="color:pink">', $string );
-     $string = str_replace( '§k', '', $string );
+     $string = str_replace( '§k', '', $string );  //how can i do this
      $string = str_replace( '§d', '</span><span style="color:pink">', $string );
      $string = str_replace( '§l', '', $string );
      $string = str_replace( '§o', '', $string );
