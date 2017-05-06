@@ -22,7 +22,7 @@ function color( $string ) {
      $string = str_replace( '§d', '</span><span style="color:pink">', $string );
      $string = str_replace( '§l', '', $string );
      $string = str_replace( '§o', '', $string );
-     $string = str_replace( '§r', '</span><span style="color:white">', $string );
+     $string = str_replace( '§r', '</span><span>', $string );
      return $string .'</span>';
 }
 ?>
